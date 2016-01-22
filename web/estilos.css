@@ -6,6 +6,7 @@ padding: 0px;
 body {
 text-align: center;
 background: #efefef;
+font-family:'Bebas Neue';
 }
 
 /*.contenedor{
@@ -16,7 +17,6 @@ background: #efefef;
 #cabecera {
 	float: left;
 	width:25%;
-	height:30%;
 	background: #efefef;
 	padding:0%;
 }
@@ -28,40 +28,46 @@ img.logo{
 #menu {
 	background: #efefef;
 	padding: 5px 15px;
-
 }
-#menu li {
+
+}#menu ul {
+	list-style: none;
+}
+
+#menu li{
 	display: inline-block;
 	list-style: none;
 	padding: 5px;
-	font-family:'Bebas Neue';font-weight:normal;font-size:1em; color:#878084;
-}
-.derecha{
-	width:10%;
-	background:#383838;
-	position:fixed;
-	top:0;
-	left:0;
-	bottom:0;
+	font-weight:normal;
+	font-size:1em; 
 }
 
-.derecha.img{
-	width:100%;
+#menu li a{
+	padding: 5px;
+	font-weight:normal;
+	font-size:1em; 
+	color:#878084;
+	text-decoration: none;
+
 }
 
-.linea{
-	
-	background-color: #878084;
-	border: 1px solid #878084;
+#menu li:hover a{
+	color:#502B3D;transition:1s;
+
+}
+
+#cabecera .linea{
+	background: #502B3D;
+	height: .8px;
   /* IMPORTANTE */
    text-align: center;
-   width: 30%;
+   width: 80%;
    margin: 0 auto;
    
 }
 
-h1 {
-font-family:'Bebas Neue';font-weight:normal;font-size:2pt; color:#878084;
+#cabecera h1 {
+font-weight:normal;font-size:2em; color:#878084;
 margin-top: 15px;
 }
 
@@ -70,25 +76,11 @@ font: bold 14px verdana, sans-serif;
 }
 
 
-
-.cuadrado{
+.grid .item{
 	float:left;
 	width:25%;
-    height: 30%;
-   	box-sizing: border-box;
 }
-
-
-.cuadradotexto{
-	background:#878084;
-	width:25%;
-	font-family:'arial';font-weight:normal;font-size:1em; color:#fff;
-	padding: 20px;
-  	overflow: scroll;
-  	box-sizing: border-box;
-}
-
-
-.imagencuadrada{
+.grid .item img{
+	display:block;
 	width: 100%;
 }
