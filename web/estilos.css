@@ -1,0 +1,94 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+body {
+text-align: center;
+background: #efefef;
+}
+
+/*.contenedor{
+	padding-left:10%;
+	width: 90%;
+}*/
+
+#cabecera {
+	float: left;
+	width:25%;
+	height:30%;
+	background: #efefef;
+	padding:0%;
+}
+
+img.logo{
+	margin-top: 15%;
+}
+
+#menu {
+	background: #efefef;
+	padding: 5px 15px;
+
+}
+#menu li {
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font-family:'Bebas Neue';font-weight:normal;font-size:1em; color:#878084;
+}
+.derecha{
+	width:10%;
+	background:#383838;
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+}
+
+.derecha.img{
+	width:100%;
+}
+
+.linea{
+	
+	background-color: #878084;
+	border: 1px solid #878084;
+  /* IMPORTANTE */
+   text-align: center;
+   width: 30%;
+   margin: 0 auto;
+   
+}
+
+h1 {
+font-family:'Bebas Neue';font-weight:normal;font-size:2pt; color:#878084;
+margin-top: 15px;
+}
+
+h2 {
+font: bold 14px verdana, sans-serif;
+}
+
+
+
+.cuadrado{
+	float:left;
+	width:25%;
+    height: 30%;
+   	box-sizing: border-box;
+}
+
+
+.cuadradotexto{
+	background:#878084;
+	width:25%;
+	font-family:'arial';font-weight:normal;font-size:1em; color:#fff;
+	padding: 20px;
+  	overflow: scroll;
+  	box-sizing: border-box;
+}
+
+
+.imagencuadrada{
+	width: 100%;
+}
